@@ -127,3 +127,4 @@ if (miInput.files.length > 0 && miInput.fileMetadata) {
 
 * **Jack E. Charalla Cutipa** 
   * GitHub: [@JackCharalla](https://github.com/JackCharalla)
+  * Gobierno Regional Cusco - Proyecto Modernización Cusco
