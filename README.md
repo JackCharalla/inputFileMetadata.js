@@ -12,7 +12,7 @@
 
 ---
 
-## 🛠️ Instalación y Uso
+## Instalación y Uso
 
 Solo necesitas incluir el script en tu HTML y luego llamar a su función de inicialización:
 
@@ -27,7 +27,7 @@ Solo necesitas incluir el script en tu HTML y luego llamar a su función de inic
 
 ---
 
-## 🚀 Modos de Funcionamiento y Ejemplos
+## Modos de Funcionamiento y Ejemplos
 
 Existen dos formas de utilizar esta librería en tus formularios dependiendo de si quieres que aparezca un *Modal* para pedir los datos, o si prefieres que los lea de *otros campos* ya existentes en el formulario.
 
@@ -98,7 +98,7 @@ Agrega los atributos `meta-title` y `meta-desc` apuntando al `id` o `name` de lo
 
 ---
 
-## 👨‍💻 Recuperar Metadatos desde JavaScript
+## Recuperar Metadatos desde JavaScript
 
 Además de inyectar los `<input type="hidden">` para envío tradicional, la librería inyecta un objeto completo en la propiedad `.fileMetadata` del elemento del DOM (tu input original). Esto es sumamente útil si haces envíos usando Fetch/Axios y requieres los datos ordenados en un JSON.
 
