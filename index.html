@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jack Charalla">
+    <title>Test InputFileMetadata</title>
+</head>
+<body style="padding: 40px; font-family: sans-serif;">
+    
+    <h2>Prueba de InputFileMetadata</h2>
+    
+    <form id="myForm" style="width:300px">
+        
+        <h3>Ejemplo con Modal (Por defecto)</h3>
+        
+        <div style="margin-bottom: 20px;">
+            <label style="display: block; margin-bottom: 8px;">Documento:</label>
+            <input type="file" name="documento" class="inputFileMetadata">
+        </div>
+
+
+        
+        <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ccc;">
+        <h3>Ejemplo sin Modal (usando inputs externos)</h3>
+
+        <div style="margin-bottom: 15px;">
+            <label style="display: block; margin-bottom: 8px;">Asunto:</label>
+            <input type="text" name="asunto" id="asunto" style="padding: 8px; width: 300px;">
+        </div>
+        
+        <div style="margin-bottom: 15px;">
+            <label style="display: block; margin-bottom: 8px;">Detalle:</label>
+            <input type="text" name="detalle" id="detalle" style="padding: 8px; width: 300px;">
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <label style="display: block; margin-bottom: 8px;">Adjunto:</label>
+            <input type="file" class="inputFileMetadata" name="adjunto" meta-title="asunto" meta-desc="detalle">
+        </div>
+
+        <button type="submit" style="padding: 10px 20px; background: #198754; color: white; border: none; border-radius: 4px; cursor: pointer;">Enviar Formulario</button>
+    </form>
+
+    <script src="InputFileMetadata.js?v=1.6"></script>
+    <script>
+        // Inicializar la librería
+        InputFileMetadata.init();
+    </script>
+</body>
+</html>
