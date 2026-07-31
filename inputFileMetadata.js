@@ -24,7 +24,7 @@ const InputFileMetadata = (function() {
         header.style.cssText = "padding: 16px; border-bottom: 1px solid #e5e7eb; display: flex; justify-content: space-between; align-items: center;";
         
         const title = document.createElement('h5');
-        title.innerText = "Detalles del Archivo";
+        title.innerText = "Datos del Archivo";
         title.style.cssText = "margin: 0; font-size: 1.25rem; font-weight: 500; color: #212529;";
         
         const closeBtn = document.createElement('button');
@@ -99,9 +99,9 @@ const InputFileMetadata = (function() {
         
         const acceptBtn = document.createElement('button');
         acceptBtn.innerText = "Aceptar";
-        acceptBtn.style.cssText = "padding: 6px 14px; border: 1px solid #0d6efd; background: #0d6efd; color: #fff; border-radius: 4px; cursor: pointer; font-size: 1rem; transition: background 0.2s;";
-        acceptBtn.onmouseover = () => { acceptBtn.style.background = '#0b5ed7'; };
-        acceptBtn.onmouseout = () => { acceptBtn.style.background = '#0d6efd'; };
+        acceptBtn.style.cssText = "padding: 6px 14px; border: 1px solid #6e001d; background: #6e001d; color: #fff; border-radius: 4px; cursor: pointer; font-size: 1rem; transition: background 0.2s;";
+        acceptBtn.onmouseover = () => { acceptBtn.style.background = '#8a0024'; };
+        acceptBtn.onmouseout = () => { acceptBtn.style.background = '#6e001d'; };
         acceptBtn.onclick = handleAccept;
         
         footer.appendChild(cancelBtn);
